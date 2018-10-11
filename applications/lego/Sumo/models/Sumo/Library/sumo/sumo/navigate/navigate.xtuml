@@ -80,30 +80,41 @@ INSERT INTO O_ATTR
 	'',
 	'0');
 INSERT INTO O_NBATTR
-	VALUES ("ed3ba278-34a4-46c5-8223-e3e75b551ef1",
+	VALUES ("804b5222-6d47-4104-98a0-e8b1b36db4da",
 	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
 INSERT INTO O_BATTR
-	VALUES ("ed3ba278-34a4-46c5-8223-e3e75b551ef1",
+	VALUES ("804b5222-6d47-4104-98a0-e8b1b36db4da",
 	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
 INSERT INTO O_ATTR
-	VALUES ("ed3ba278-34a4-46c5-8223-e3e75b551ef1",
+	VALUES ("804b5222-6d47-4104-98a0-e8b1b36db4da",
 	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6",
 	"f78b48cf-68f0-4251-8589-034a6771322c",
-	'last_turn',
+	'rightDepression',
 	'',
 	'',
-	'last_turn',
+	'rightDepression',
 	0,
-	"dd074cdf-cf2e-43c1-96d4-546b665b3dc9",
+	"ba5eda7a-def5-0000-0000-000000000001",
 	'',
-	'');
-INSERT INTO S_DT_PROXY
-	VALUES ("dd074cdf-cf2e-43c1-96d4-546b665b3dc9",
-	"00000000-0000-0000-0000-000000000000",
-	'Orientation',
+	'FALSE');
+INSERT INTO O_NBATTR
+	VALUES ("942849b6-3c69-468c-8a46-3ed96ca8bab2",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
+INSERT INTO O_BATTR
+	VALUES ("942849b6-3c69-468c-8a46-3ed96ca8bab2",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
+INSERT INTO O_ATTR
+	VALUES ("942849b6-3c69-468c-8a46-3ed96ca8bab2",
+	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6",
+	"804b5222-6d47-4104-98a0-e8b1b36db4da",
+	'leftDepression',
 	'',
 	'',
-	'../../../../IO DTs/IO DTs.xtuml');
+	'leftDepression',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'FALSE');
 INSERT INTO O_ID
 	VALUES (0,
 	"f70195ed-5da3-43dd-b1ba-5c4d1759bad6");
